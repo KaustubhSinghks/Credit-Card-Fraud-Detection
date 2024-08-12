@@ -18,6 +18,8 @@ The Credit Card Fraud Detection project aims to build a machine learning model t
 **Objectives**
 Develop a Fraud Detection Model: Create a model that can accurately classify credit card transactions as either fraudulent or legitimate.
 Evaluate Model Performance: Assess the accuracy of the model using various metrics and improve its performance if necessary.
+
+
 **Key Activities**
 Data Collection and Loading:
 
@@ -39,6 +41,8 @@ Calculate the accuracy of the model using accuracy_score to determine how well t
 Result Output:
 
 Print the accuracy score of the model to evaluate its performance.
+
+
 **Technologies Used**
 Python: Programming language used for implementation.
 Pandas: Library for data manipulation and analysis.
