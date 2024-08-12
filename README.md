@@ -21,34 +21,45 @@ Evaluate Model Performance: Assess the accuracy of the model using various metri
 
 
 **Key Activities**
-Data Collection and Loading:
+
+**Data Collection and Loading:**
 
 Load the credit card transaction dataset from a CSV file using Pandas.
 Understand the dataset structure and features.
-Data Preprocessing:
+
+**Data Preprocessing:**
 
 Extract features (X) and labels (y) from the dataset.
 Split the data into training and testing sets using train_test_split.
 Standardize the feature values using StandardScaler to ensure uniform scale for the SVC model.
-Model Training:
+
+**Model Training:**
 
 Initialize and train the Support Vector Classifier (SVC) with a radial basis function (RBF) kernel.
 Fit the model on the standardized training data.
-Model Evaluation:
+
+**Model Evaluation:**
 
 Predict the class labels for the test set.
 Calculate the accuracy of the model using accuracy_score to determine how well the model performs on unseen data.
-Result Output:
+
+**Result Output:**
 
 Print the accuracy score of the model to evaluate its performance.
 
 
 **Technologies Used**
+
 Python: Programming language used for implementation.
+
 Pandas: Library for data manipulation and analysis.
+
 NumPy: Library for numerical operations.
+
 Scikit-learn: Library for machine learning, including model training and evaluation.
-Requirements
+
+Requirements:
+
 Python 3.x
 Pandas
 NumPy
@@ -57,11 +68,14 @@ You can install the required libraries using pip:
 
 bash
 Copy code
-pip install pandas numpy scikit-learn
-How to Run
-Prepare the Dataset: Ensure the dataset file creditcard.csv is available in the working directory.
 
-Execute the Script: Run the Python script using the following command:
+pip install pandas numpy scikit-learn
+
+**How to Run**
+
+**Prepare the Dataset:** Ensure the dataset file creditcard.csv is available in the working directory.
+
+**Execute the Script**: Run the Python script using the following command:
 
 bash
 Copy code
@@ -69,6 +83,7 @@ python your_script_name.py
 View the Results: The accuracy of the model will be printed to the console.
 
 **Code Explanation**
+
 Data Loading: Reads the dataset and extracts features and labels.
 Data Preprocessing: Splits the data into training and testing sets, and standardizes the features.
 Model Training: Trains an SVC model with an RBF kernel on the training data.
